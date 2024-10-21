@@ -12,4 +12,8 @@ With my data structure however, my b+ tree sorts the data into its ranges effect
 
 I tested the api endpoints with postman, i provided all the endpoints required and the basic create, retrieve, update and deletion endpoint.
 
+data.csv is the file i used for testing it works as normal, it contains 60 rows, one row has been edited to not match email format, the validation catches that row out. large_employee_Data.csv is data created by the faker library in python (ran on jupiter notebooks) contains two hundred thousand or so rows of data. i used that to ensure my theory that the data structure would still be high performance regardless of how large the data set becomes.
+
+
 Thanks for reading.
+
